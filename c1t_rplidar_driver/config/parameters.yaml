@@ -1,0 +1,2 @@
+# Timeout threshold for lidar
+lidar_timeout: 0.2
