@@ -18,5 +18,7 @@
 
 <launch>
     <node name="c1t_rplidar_driver" pkg="c1t_rplidar_driver" type="c1t_rplidar_driver_node" output="screen"/>
-    <node name="rplidar_ros" pkg="rplidar_ros" type="rplidarNode"/>
+    <node name="rplidar_ros" pkg="rplidar_ros" type="rplidarNode">
+        <param name="frame_id" type="string" value="rplidar"/>
+    </node>
 </launch>
